@@ -7,12 +7,12 @@ class Inicio extends REST_Controller
 {
     public function index_get()
 	{
-		echo "Sistema API";
+		echo "Sistema API-2";
 	}
 
 	public function prueba_get()
 	{
-		echo "Prueba Sistema API";
+		echo "Prueba Sistema API-2";
 	}
    
 }
