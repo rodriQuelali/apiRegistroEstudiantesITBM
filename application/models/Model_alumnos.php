@@ -5,7 +5,7 @@ date_default_timezone_set('America/La_Paz');
 
 class Model_alumnos extends CI_Model
 {
-    public $id; //no
+    //public $id; //no
     public $password; //ci
     public $nombre; //post
     public $sexo; //post

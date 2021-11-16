@@ -74,12 +74,12 @@ $active_group = 'default';
 $query_builder = TRUE;
 
 $db['default'] = array(
-	'dsn'	=> '',
-	'hostname' => 'localhost',
-	'username' => 'root',
-	'password' => '',
-	'database' => 'academico',
-	'dbdriver' => 'mysqli',
+	'dsn'	=> 'pgsql:host=ec2-3-230-149-158.compute-1.amazonaws.com;port=5432;dbname=dbq1bcl6ecnfjh',
+	'hostname' => 'ec2-3-230-149-158.compute-1.amazonaws.com',
+	'username' => 'ylkyxvqwskunfh',
+	'password' => '1f3f7b4c23c625e4dedae77d2ba716e7c4be18c2e97c62409932595f72fecf4c',
+	'database' => 'dbq1bcl6ecnfjh',
+	'dbdriver' => 'pdo',
 	'dbprefix' => '',
 	'pconnect' => FALSE,
 	'db_debug' => (ENVIRONMENT !== 'production'),
@@ -92,5 +92,6 @@ $db['default'] = array(
 	'compress' => FALSE,
 	'stricton' => FALSE,
 	'failover' => array(),
-	'save_queries' => TRUE
+	'save_queries' => TRUE,
+	'port' => 5432
 );
