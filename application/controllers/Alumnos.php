@@ -1,9 +1,9 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-require APPPATH.'/libraries/REST_Controller.php';
+require APPPATH.'/libraries/RestController.php';
 
-class Alumnos extends REST_Controller
+class Alumnos extends RestController
 {
     function __construct() {
         parent::__construct();
