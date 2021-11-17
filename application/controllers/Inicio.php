@@ -1,9 +1,9 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-require APPPATH.'/libraries/REST_Controller.php';
+require APPPATH.'/libraries/RestController.php';
 
-class Inicio extends REST_Controller
+class Inicio extends RestController
 {
     public function index_get()
 	{
